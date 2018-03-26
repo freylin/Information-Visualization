@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Chart</title>
+		<link type="text/css" rel="stylesheet" href="css/HeatMap.css"/>
+		<link type="text/css" rel="stylesheet" href="css/HeatSlider.css"/>
+		<link type="text/css" rel="stylesheet" href="css/Dotchart.css"/>
+		<script type="text/javascript" src="d3/d3.min.js"></script>
+		<script type="text/javascript" src="d3/d3.Slider.js"></script>
+	</head>
+<style>
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin:0 auto;
+  position: relative;
+  /*width: 960px;*/
+  height:800px;
+  background: white;
+}
+.button{position:absolute;left:1050px;Top:560px;}
+a{text-decoration:none;color:gray;line-height:16px;font-size:15px;}
+a:hover{color:#666;}
+button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+</style>
+	<body>
+		<form style="position: absolute; top: 33px; left: 150px; z-index:2;">
+			<input type="radio" checked="checked" name="week" value="Fri" /> Fri
+			<input type="radio" name="week" value="Sat" /> Sat
+			<input type="radio" name="week" value="Sun" /> Sun
+		</form>
+		<form name="input" method="get" style="position: absolute; top: 484px; left: 58px; z-index:2;">
+			ID:
+			<input type="text" name="search_id" style="width: 100px"/>
+		</form>
+		<script type="text/javascript" src="js/heat_map.js"></script>
+		<script type="text/javascript" src="js/HeatMap.js"></script>
+		<script type="text/javascript" src="js/HeatSlider.js"></script>
+		<script type="text/javascript" src="js/Dotchart.js"></script>
+<a class="button" href="stream.html"><b>To STREAM</b><a>
+	</body>
+</html>

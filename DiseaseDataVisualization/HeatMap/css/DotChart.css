@@ -1,0 +1,42 @@
+.Dot_axis path,
+.Dot_axis line {
+	fill: none;
+	stroke: gray;
+	shape-rendering: crispEdges;
+}
+.Dot_axis text {
+	fill: #4F4F4F ;
+}
+
+circle{
+	cursor: pointer;
+}
+
+circle:hover{
+	fill: #EEB4B4;
+	stroke: #EEB4B4;
+	opacity: 1;
+}
+.dot {
+	/*stroke: #000;*/
+	opacity: 0.3;
+}
+
+.Dot_tooltip {
+	position: absolute;
+	width: 150px;
+	height: auto;
+	padding: 5px;
+	background-color: rgba(255, 250, 205, 0.8);
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+}
+
+.Dot_tooltip p {
+	color: #4F4F4F;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+}

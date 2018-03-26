@@ -1,0 +1,103 @@
+.Heat_axis path,
+.Heat_axis line {
+	fill: none;
+	stroke: gray;
+	shape-rendering: crispEdges;
+}
+.Heat_axis text {
+	font-size: 5px;
+	fill: #4F4F4F ;
+}
+
+.Heat_rect {
+	/*fill: #0000CD;*/
+	opacity: 0.2;
+	stroke-width: 0.5px;
+	stroke:none;
+	cursor: pointer;
+}
+
+.Heat_dot {
+	pointer-events: none;
+}
+
+circle{
+	cursor: pointer;
+}
+
+circle:hover{
+	fill: #EEB4B4;
+	stroke: #EEB4B4;
+}
+
+.Heat_tooltip {
+	position: absolute;
+	width: 150px;
+	height: auto;
+	padding: 5px;
+	background-color: rgba(255, 250, 205, 0.8);
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+}
+#Heat_div{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left:40px;
+	top:20px;
+}
+
+.Heat_tooltip p {
+	color: #4F4F4F;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+}
+
+.Heat_form{
+	type: radio;
+	name: week;
+}
+
+.Heat_search {
+  fill:  #BCD2EE;
+  opacity: 1.0;
+  cursor: pointer;
+}
+.Heat_search_text {
+  pointer-events: none;
+  fill : #363636;
+  }
+
+.Heat_Map {
+  fill:  #BCD2EE;
+  cursor: pointer;
+}
+.Heat_Map_text {
+  pointer-events: none;
+  fill : #363636;
+  }
+
+
+.Heat_n_div {
+	position: absolute;
+	width: 100px;
+	height: auto;
+	padding: 5px;
+	background-color: rgba(255, 250, 205, 0.8);
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+	left: 420px;
+	top: 480px;
+}
+
+.Heat_n_div p {
+	color: #4F4F4F;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 20px;
+	line-height: 15px;
+}
