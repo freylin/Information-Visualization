@@ -1,2 +1,0 @@
-Timestamp,id,type,X,Y
-2014-6-1 08:00:16,1591741,check-in,63,99
